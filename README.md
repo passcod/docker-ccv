@@ -8,9 +8,12 @@ necessary packages, then build from sources. Yes, it means we waste some space
 as there are packages we could probably delete, but given CCV's size this is
 not actually worth it.
 
-The final image is about 1G on disk and a bit less than 600MB transfer. When
+The final image is about 1.2G on disk and a bit less than 600MB transfer. When
 started, it takes a bit more than a gigabyte of RAM... idle. Computer Vision
 is heavy business.
 
-The port is 3350, as indicated by the Dockerfile.
+The port the server listens on is 3350, as indicated in the Dockerfile.
+
+[libccv]: http://libccv.org
+[docs]: http://libccv.org/doc/doc-http/
 
